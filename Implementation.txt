@@ -1,0 +1,13 @@
+Implementation Details:
+
+- Main Page (page.js):
+- Predefined Cities: The useEffect hook fetches weather data for predefined cities (Dubai, New York, London, Tokyo, Sydney) when the component mounts.
+- Search Functionality: Users can search for additional cities using the CitySearch component. The results are displayed dynamically.
+- Favorites Management: Users can mark cities as favorites, which are stored in local storage and displayed at the top of the dashboard.
+- Details Modal: When a user clicks "View Details," a modal shows a 5-day weather forecast for the selected city.
+- CitySearch Component (components/CitySearch.js): Handles user input and triggers a weather search for the entered city.
+- WeatherCard Component (components/WeatherCard.js): Displays weather information, allows users to toggle a city as a favorite, and provides a button to view detailed weather information.
+- WeatherDetailsModal Component (components/WeatherDetailsModal.js): Displays a modal with detailed weather forecasts (5-day) for the selected city.
+- Weather API Service (services/weather.js): Provides functions to fetch current weather data and 5-day forecasts from the OpenWeatherMap API.
+- Local Storage Utility (utils/storage.js): Manages storing and retrieving favorite cities in local storage.
+- Styling with Tailwind CSS: The UI is designed to be responsive and clean using Tailwind CSS. This ensures the dashboard is functional across both desktop and mobile devices.
