@@ -1,8 +1,27 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Weather Dashboard
 
-First, run the development server:
+## Overview
+A responsive weather dashboard built with Next.js that displays current weather information for multiple cities. Users can search for cities, view weather details, mark favorites, and see a 5-day forecast.
+
+## Features
+- City search
+- Predefined cities with current weather
+- Favorites with persistence via local storage
+- Detailed weather view (5-day forecast)
+- Responsive design
+
+## Setup
+
+1. Clone the repository.
+2. Use node v20.x.x
+3. Install dependencies:
+  ```bash
+ cd weather-next-dashboard
+ npm install
+```
+4. Run the development server:
 
 ```bash
 npm run dev
